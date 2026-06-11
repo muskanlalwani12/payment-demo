@@ -1,4 +1,4 @@
-const stripeService = require("../services/stripe.service");
+const stripeService = require("../../services/stripe/stripe.service");
 
 const createCheckout = async (req, res) => {
   try {
